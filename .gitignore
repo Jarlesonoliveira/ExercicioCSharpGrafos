@@ -1,0 +1,7 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/ConsoleApp1/obj/Debug
+/Grafo_1053/bin/Debug
+/Grafo_1053/obj/Debug
