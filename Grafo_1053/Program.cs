@@ -7,6 +7,12 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Globalization;
+using System.Xml.Linq;
+using System.Diagnostics;
+using System.ComponentModel;
+using System.Collections;
+using System.Reflection.Emit;
+using System.Net.NetworkInformation;
 
 namespace Grafos_1053
 {
@@ -20,45 +26,117 @@ namespace Grafos_1053
             for (int i = 0; i < T; i++) {
 
                 int N = int.Parse(Console.ReadLine());
+                int[] L = new int[5] {1, 2, 3, 4, 5};
+                char[] C = new char[5];
+                C[0] = 'A';
+                C[1] = 'B';
+                C[2] = 'C';
+                C[3] = 'D';
+                C[4] = 'E';
+                
 
                 for (int e = 0; e < N; e++) {
-
-                    char A = 'A'; int A1 = 1 ^ 5;
-                    char B = 'B'; int B2 = 1 ^ 5;
-                    char C = 'C'; int C3 = 1 ^ 5;
-                    char D = 'D'; int D4 = 1 ^ 5;
-                    char E = 'E'; int E5 = 1 ^ 5;
-
                     string[] vet = Console.ReadLine().Split(' ');
 
-                    double X1 = double.Parse(vet[0]);
-                    double X2 = double.Parse(vet[1]);
+                    string X1 = vet[0];
+                    string Y1 = vet[1];
 
-                    double total = X1 + X2;
+                    string[] vetor = X1.Split(C);                     
 
-                    if (total == A || total == A1) {
-                        Console.WriteLine("Case 1: " + total);
-                        total++;
-                    } else if (total == B || total == B2) {
-                        Console.WriteLine("Case 1: " + total);
-                        total++;
-                    } else if (total == C || total == C3) {
-                        Console.WriteLine("Case 1: " + total);
-                        total++;
-                    } else if (total == D || total == D4) {
-                        Console.WriteLine("Case 1: " + total);
-                        total++;
-                    } else if (total == E || total == E5) {
-                        Console.WriteLine("Case 1: " + total);
-                        total++;
-                    } else {
+                    string letra = vetor[0];
+                    string valor = vetor[1];
 
-                        Console.WriteLine("Case 2: ~x(");
+                    int valor1 = Convert.ToInt32(valor);                    
+
+                    string[] vetor1 = Y1.Split(C);
+
+                    string letra1 = vetor1[0];
+                    string  valor2 = vetor1[1];                                      
+
+                    int valor3 = Convert.ToInt32(valor2);                    
+
+                    double letraValor1;
+                    double letravalor2;                   
+                                       
+
+                    if (letra == "A") {
+                        letraValor1 = C[0];
                     }
+                    if (letra == ("B")) {
+                        letraValor1 = C[1];
+                    }
+                    if (letra == ("C")) {
+                        letraValor1 = C[2];
+                    }
+                    if (letra == ("D")) {
+                        letraValor1 = C[3];
+                    }
+                    if (letra == ("E")) {
+                        letraValor1 = C[4];
+                    }
+
+
+                    if (letra1 == "A") {
+                        letraValor1 = C[0];
+                    }
+                    if (letra1 == ("B")) {
+                        letraValor1 = C[1];
+                    }
+                    if (letra1 == ("C")) {
+                        letraValor1 = C[2];
+                    }
+                    if (letra1 == ("D")) {
+                        letraValor1 = C[3];
+                    }
+                    if (letra1 == ("E")) {
+                        letraValor1 = C[4];
+                    }
+
+                    if (valor1 == 1) {
+                        letravalor2 = L[0];
+                    }
+                    if (valor1 == 2) {
+                        letravalor2 = L[1];
+                    }
+                    if (valor1 == 1) {
+                        letravalor2 = L[2];
+                    }
+                    if (valor1 == 1) {
+                        letravalor2 = L[3];
+                    }
+                    if (valor1 == 1) {
+                        letravalor2 = L[4];
+                    }
+
+                    if (valor3 == 1 ) {
+                        letravalor2 = L[0];
+                    }
+                    if (valor3 == 2) {
+                        letravalor2 = L[1];
+                    }
+                    if (valor3 == 1) {
+                        letravalor2 = L[2];
+                    }
+                    if (valor3 == 1) {
+                        letravalor2 = L[3];
+                    }
+                    if (valor3 == 1) {
+                        letravalor2 = L[4];
+                    }
+                    
+                    var distance = Math.Sqrt(Math.Pow(valor1 - valor3, 2));                         
+                    string resultado = letra + valor1;
+
+                    if (X1 == resultado) {                         
+                        Console.WriteLine("Case 1:" + distance);
+                    }else if(Y1 == resultado) {
+                        Console.WriteLine("Case 1:" + distance);                    
+                    } else
+                        Console.WriteLine("Case 2: ~x(");
                 }
-             
             }
+            
         }
+
     }
 }
-
