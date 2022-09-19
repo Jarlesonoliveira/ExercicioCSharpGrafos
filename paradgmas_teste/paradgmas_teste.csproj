@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{451A5BB3-8003-48BC-AC0B-D10920046B2E}</ProjectGuid>
+    <ProjectGuid>{D2285084-E018-44A9-A860-31B7B674B526}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lucro_1310</RootNamespace>
-    <AssemblyName>Lucro_1310</AssemblyName>
+    <RootNamespace>paradgmas_teste</RootNamespace>
+    <AssemblyName>paradgmas_teste</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,8 +45,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Scanner.cs" />
-    <Compile Include="vetor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

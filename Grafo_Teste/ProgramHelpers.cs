@@ -1,18 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Grafo_teste
+namespace Lucro_1310
 {
-    public class Program
+    internal static class ProgramHelpers
     {
-        static void Main(string[] args) {
-            
-            if (args.Length == 0) { args = new string[] { "3", "43", "6" }; }
-            IEnumerator<int> sc = (from arg in args select int.Parse(arg)).GetEnumerator();
-            while (sc.MoveNext()) {
+        public static void Main(string[] value) {
+
+            var sc = "Entradas";
+            while (sc = int.TryParse(value, out sc)) {
                 int Numero_de_dias;
                 int Custo_por_dia;
                 var lucro = 0;

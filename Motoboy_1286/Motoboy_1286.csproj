@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{451A5BB3-8003-48BC-AC0B-D10920046B2E}</ProjectGuid>
+    <ProjectGuid>{7121B751-7B0B-4FCA-956D-B28450E3CBC8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lucro_1310</RootNamespace>
-    <AssemblyName>Lucro_1310</AssemblyName>
+    <RootNamespace>Motoboy_1286</RootNamespace>
+    <AssemblyName>Motoboy_1286</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,8 +45,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Scanner.cs" />
-    <Compile Include="vetor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
