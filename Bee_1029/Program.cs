@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bee_1029
+namespace Fibonacci_1029
 {
     internal class Program
     {
