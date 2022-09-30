@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "paradgmas_teste", "..\parad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Motoboy_1286", "..\Motoboy_1286\Motoboy_1286.csproj", "{7121B751-7B0B-4FCA-956D-B28450E3CBC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Festival_de_estatuas_de_gelo_1034", "..\Fistival_de_estatuas_de_gelo_1034\Festival_de_estatuas_de_gelo_1034.csproj", "{D3E0CCC0-495F-4AD7-A311-3B7EB7D889C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7121B751-7B0B-4FCA-956D-B28450E3CBC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7121B751-7B0B-4FCA-956D-B28450E3CBC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7121B751-7B0B-4FCA-956D-B28450E3CBC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3E0CCC0-495F-4AD7-A311-3B7EB7D889C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3E0CCC0-495F-4AD7-A311-3B7EB7D889C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3E0CCC0-495F-4AD7-A311-3B7EB7D889C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3E0CCC0-495F-4AD7-A311-3B7EB7D889C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
