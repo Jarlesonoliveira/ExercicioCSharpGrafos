@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Motoboy_1286", "..\Motoboy_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Festival_de_estatuas_de_gelo_1034", "..\Fistival_de_estatuas_de_gelo_1034\Festival_de_estatuas_de_gelo_1034.csproj", "{D3E0CCC0-495F-4AD7-A311-3B7EB7D889C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apagando_e_ganhando_1084", "..\Apagando_e_ganhando_1084\Apagando_e_ganhando_1084.csproj", "{4ED280D4-43F4-4E6E-AFA5-DD6FE0A3FC25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{D3E0CCC0-495F-4AD7-A311-3B7EB7D889C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3E0CCC0-495F-4AD7-A311-3B7EB7D889C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3E0CCC0-495F-4AD7-A311-3B7EB7D889C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED280D4-43F4-4E6E-AFA5-DD6FE0A3FC25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED280D4-43F4-4E6E-AFA5-DD6FE0A3FC25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED280D4-43F4-4E6E-AFA5-DD6FE0A3FC25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED280D4-43F4-4E6E-AFA5-DD6FE0A3FC25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
