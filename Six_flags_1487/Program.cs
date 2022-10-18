@@ -14,10 +14,8 @@ namespace Six_flags_1487
         public static int[] p = new int[101];
 
         public static int dp(int n, int peso) {
-
-            int[] pd = new int[peso + 1];            
-            memset(pd, 0, sizeof(int));
-
+            
+            int[] pd = new int[peso + 1];
             for (int i = 0; i <= peso; i++) {
                 for (int j = 0; j < n; j++) {
                     if (p[j] <= i) {
@@ -30,23 +28,24 @@ namespace Six_flags_1487
         }
 
         internal static void Main() {
-            int peso;
             int k = 1;
-            while (scanf("%d %d", n, peso) && n != 0) {
+            int peso;
+            string l;
+
+            while (!(l = Console.ReadLine()).Equals("0 0")) {
+                string[] tempVar = l.Split(' ');
+                n = int.Parse(tempVar[0]);
+                peso = int.Parse(tempVar[1]);
+
                 for (int i = 0; i < n; i++) {
-                    string tempVar = ConsoleInput.ScanfRead();
-                    if (tempVar != null) {
-                        p[i] = int.Parse(tempVar);
-                    }
-                    string tempVar2 = ConsoleInput.ScanfRead(" ");
-                    if (tempVar2 != null) {
-                        v[i] = int.Parse(tempVar2);
-                    }
+                string[] tempVar1 = (Console.ReadLine()).Split(' ');
+                    p[i] = int.Parse(tempVar1[0]);                   
+                    v[i] = int.Parse(tempVar1[1]);
                 }
-                Console.Write("Instancia {0:D}\n", k++);
-                Console.Write("{0:D}\n\n", dp(n, peso));
+                Console.WriteLine("Instancia ", k++);
+                Console.WriteLine("\n\n", dp(n, peso));
             }
+            
         }
     }
-
 }

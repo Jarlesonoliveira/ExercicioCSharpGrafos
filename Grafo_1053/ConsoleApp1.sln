@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canhao_de_destruicao_1288",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajude_seu_madruga_1912", "..\Ajude_seu_madruga_1912\Ajude_seu_madruga_1912.csproj", "{3756BA13-DE4A-454D-9C8E-938D2C56D2B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Six_flags_1487", "..\Six_flags_1487\Six_flags_1487.csproj", "{A665BF43-F0AE-4FFB-A0EB-6D9A4AB5AD9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{3756BA13-DE4A-454D-9C8E-938D2C56D2B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3756BA13-DE4A-454D-9C8E-938D2C56D2B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3756BA13-DE4A-454D-9C8E-938D2C56D2B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A665BF43-F0AE-4FFB-A0EB-6D9A4AB5AD9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A665BF43-F0AE-4FFB-A0EB-6D9A4AB5AD9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A665BF43-F0AE-4FFB-A0EB-6D9A4AB5AD9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A665BF43-F0AE-4FFB-A0EB-6D9A4AB5AD9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

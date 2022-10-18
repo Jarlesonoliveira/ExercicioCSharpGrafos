@@ -25,8 +25,7 @@ namespace Ajude_seu_madruga_1912
                 sum = 0;
                 sw.Start();
                 string[] tempVar1 = new string[n-1];
-                tempVar1 = (Console.ReadLine()).Split(' ');
-                
+                tempVar1 = (Console.ReadLine()).Split(' ');                
                 for (int i = 0; i < n; ++i) {
                     v[i] = int.Parse(tempVar1[i]);
                     sum += v[i];
