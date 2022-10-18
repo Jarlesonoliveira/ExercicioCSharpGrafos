@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Six_flags_1487", "..\Six_fl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "saco_do_papai_noel_1767", "..\soco_do_papai_noel_1767\saco_do_papai_noel_1767.csproj", "{3B3EDD9A-CE42-47F4-B378-C66D2F64AFF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comercio_ de_Vinhos_na_Gergovia_1661", "..\Comercio_ de_Vinhos_na_Gergovia_1661\Comercio_ de_Vinhos_na_Gergovia_1661.csproj", "{DADFB1C6-A2D3-43EB-91B8-557EE3A63F9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{3B3EDD9A-CE42-47F4-B378-C66D2F64AFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B3EDD9A-CE42-47F4-B378-C66D2F64AFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B3EDD9A-CE42-47F4-B378-C66D2F64AFF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DADFB1C6-A2D3-43EB-91B8-557EE3A63F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DADFB1C6-A2D3-43EB-91B8-557EE3A63F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DADFB1C6-A2D3-43EB-91B8-557EE3A63F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DADFB1C6-A2D3-43EB-91B8-557EE3A63F9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
