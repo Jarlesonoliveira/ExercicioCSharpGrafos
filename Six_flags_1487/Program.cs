@@ -42,10 +42,11 @@ namespace Six_flags_1487
                     p[i] = int.Parse(tempVar1[0]);                   
                     v[i] = int.Parse(tempVar1[1]);
                 }
-                Console.WriteLine("Instancia ", k++);
-                Console.WriteLine("\n\n", dp(n, peso));
+                Console.Write("Instancia {0:D}\n", k++);
+                Console.Write("{0:D}\n\n", dp(n, peso));
+
             }
-            
+
         }
     }
 }
