@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajude_seu_madruga_1912", ".
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Six_flags_1487", "..\Six_flags_1487\Six_flags_1487.csproj", "{A665BF43-F0AE-4FFB-A0EB-6D9A4AB5AD9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soco_do_papai_noel_1767", "..\soco_do_papai_noel_1767\soco_do_papai_noel_1767.csproj", "{3B3EDD9A-CE42-47F4-B378-C66D2F64AFF8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "saco_do_papai_noel_1767", "..\soco_do_papai_noel_1767\saco_do_papai_noel_1767.csproj", "{3B3EDD9A-CE42-47F4-B378-C66D2F64AFF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
