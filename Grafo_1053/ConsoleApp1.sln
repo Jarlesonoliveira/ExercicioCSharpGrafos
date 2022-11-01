@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Torre_de_Hanoi_ Novamente_1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isosceles_2243", "..\Isosceles_2243\Isosceles_2243.csproj", "{2D06F450-4EFC-4BB7-9C06-BAD6061E3F20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Troco_2446", "..\Troco_2446\Troco_2446.csproj", "{BA90E809-76EE-46CF-9797-01EE2257C918}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{2D06F450-4EFC-4BB7-9C06-BAD6061E3F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D06F450-4EFC-4BB7-9C06-BAD6061E3F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D06F450-4EFC-4BB7-9C06-BAD6061E3F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA90E809-76EE-46CF-9797-01EE2257C918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA90E809-76EE-46CF-9797-01EE2257C918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA90E809-76EE-46CF-9797-01EE2257C918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA90E809-76EE-46CF-9797-01EE2257C918}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
