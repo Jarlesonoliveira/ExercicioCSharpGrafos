@@ -10,6 +10,32 @@ namespace Troco_2446
     {
         static void Main(string[] args) {
 
+            int v;
+            int n = 0;
+
+            string[] tempVar1 = (Console.ReadLine()).Split(' ');
+            v = int.Parse(tempVar1[0]);
+            n = int.Parse(tempVar1[1]);
+
+            int[] coins = new int[n + 1];
+
+            string[] tempVar2 = (Console.ReadLine()).Split(' ');
+            for (int i = 0; i < n; i++) {
+                coins[i] = int.Parse(tempVar2[i]);
+            }
+
+            bool[] dp = new bool[10001];
+
+            dp[0] = true; 
+
+            for (int j = 0; j < n; j++) {
+                for (int i = v; i >= 0; i--) {
+                    if (dp[i] && i + coins[j] <= v)
+                        dp[i + coins[j]] = true;
+                }
+            }
+            Console.WriteLine(dp[v] ? 'S' : 'N');
+            Console.ReadKey();
         }
     }
 }
