@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Troco_2446", "..\Troco_2446
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pontes_de_São_Petersburgo_1203", "..\Pontes_de_São_Petersburgo_1203\Pontes_de_São_Petersburgo_1203.csproj", "{101BF23F-3287-43A7-AB94-8265F2E1F1D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bolsa_de_Valores_1932", "..\Bolsa_de_Valores_1932\Bolsa_de_Valores_1932.csproj", "{EE20F235-A4A9-48C7-AA77-EC17708B8C64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{101BF23F-3287-43A7-AB94-8265F2E1F1D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{101BF23F-3287-43A7-AB94-8265F2E1F1D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{101BF23F-3287-43A7-AB94-8265F2E1F1D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE20F235-A4A9-48C7-AA77-EC17708B8C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE20F235-A4A9-48C7-AA77-EC17708B8C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE20F235-A4A9-48C7-AA77-EC17708B8C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE20F235-A4A9-48C7-AA77-EC17708B8C64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,6 +12,7 @@ namespace Troco_2446
 
             int v;
             int n = 0;
+            bool[] dp = new bool[100001];
 
             string[] tempVar1 = (Console.ReadLine()).Split(' ');
             v = int.Parse(tempVar1[0]);
@@ -22,9 +23,7 @@ namespace Troco_2446
             string[] tempVar2 = (Console.ReadLine()).Split(' ');
             for (int i = 0; i < n; i++) {
                 coins[i] = int.Parse(tempVar2[i]);
-            }
-
-            bool[] dp = new bool[10001];
+            }           
 
             dp[0] = true; 
 
